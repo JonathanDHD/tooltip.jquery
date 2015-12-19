@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ToolTip Jquery</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<link rel="stylesheet" href="css/tooltip.jquery.css">
+	<script type="text/javascript" src="js/tooltip.jquery.js"></script>
+</head>
+<body>
+
+<style>
+	button
+	{
+		background-color: #2699BF;
+		border: solid 2px #157696;
+		width: 150px;
+		height: 35px;
+		border-radius: 4px;
+		color: #FFF;
+	}
+</style>
+
+<button id="button-1" data-tooltip="Esta es una prueba de tooltip">Button #1</button>
+<button id="button-2" data-tooltip="Lorem iptum dolor sit amet">Button #2</button>
+<button id="button-3" data-tooltip="Texto del boton #3">Button #3</button>
+
+<script>
+	
+$('button').makeToolTips();
+
+</script>
+
+</body>
+</html>

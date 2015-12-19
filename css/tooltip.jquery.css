@@ -1,0 +1,15 @@
+.tooltip-container
+{
+	display: inline-block;
+	height: 15px;
+	background-color: #FAFAFA;
+	border-color: #CCC;
+	border-radius: 4px;
+	box-shadow: 1px 1px 4px rgba(0,0,0,.14), 1px 2px 4px rgba(0,0,0,.28);
+	color: #666;
+	font-size: 12px;
+	font-family: sans-serif;
+	padding: 5px;
+
+	z-index: 2000;
+}
